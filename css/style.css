@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    background-color: #a0ada4;
+    color: #14211f;
+    font-family: Trebuchet MS, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1, h2 {
+    font-family: Georgia, serif;
+    font-weight: normal;
+    margin: 10px;
+}
+
+.site-header {
+    background-color: #6a7077;
+    border-bottom: 4px solid #e0a526;
+}
+
+.navbar {
+    width: 1000px;
+    margin: 0 auto;
+    height: 64px;
+    line-height: 64px;
+}
+
+.brand {
+    display: inline-block;
+    width: 260px;
+    font-family: Georgia, serif;
+    font-size: 26px;
+    color: #f2f5f3;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav-links li {
+    display: inline-block;
+}
+
+.nav-links a {
+    display: block;
+    padding: 0 18px;
+    color: #d6e4e1;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    background-color: #e0a526;
+    color: #14211f;
+}
+
+
+.page-content {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 48px 0 24px 0;
+}
+
+.intro {
+    margin-bottom: 32px;
+}
+
+.intro h1 {
+    font-size: 40px;
+    margin-bottom: 12px;
+}
+
+.intro p {
+    width: 600px;
+    margin: 0;
+    color: #3d4f4c;
+}
+
+.tech-card {
+    display: inline-block;   
+    vertical-align: top;
+    width: 220px;
+    height: 400px;
+    margin: 10px;
+    background-color: #ffffff;
+    border: 1px solid #c9d6d3;
+    border-radius: 8px;
+    overflow: hidden;      
+}
+
+.tech-card img {
+    display: block;
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 16px;
+}
+
+.card-body h2 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.card-description {
+    height: 96px;            
+    margin: 0 0 8px 0;
+    font-size: 15px;
+    color: #3d4f4c;
+}
+
+.card-info {
+    margin: 0 0 16px 0;
+    font-size: 13px;
+    color: #0e5a55;
+    font-weight: bold;
+}
+
+.card-button {
+    display: inline-block;
+    padding: 8px 18px;
+    background-color: #8d9696;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.tech-card:hover {
+    border-color: #0e5a55;
+}
+
+.card-button:hover {
+    background-color: #e0a526;
+    color: #14211f;
+}
+
+.site-footer {
+    margin-top: 40px;
+    padding: 24px 0;
+    background-color: #14211f;
+    color: #b7c6c3;
+    text-align: center;
+    font-size: 14px;
+}
+
+.site-footer p {
+    margin: 4px 0;
+}
